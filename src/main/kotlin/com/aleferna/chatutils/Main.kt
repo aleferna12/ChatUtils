@@ -5,6 +5,5 @@ import com.fathzer.soft.javaluator.DoubleEvaluator
 
 fun init() {
 	println("ChatUtils loaded")
-	println(DoubleEvaluator::class)
 }
 
