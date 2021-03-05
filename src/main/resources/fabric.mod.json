@@ -22,14 +22,11 @@
     ],
     "cotton-client-commands": ["com.aleferna.chatutils.CommandRegistrator"]
   },
-  "mixins": [
-    "chatutils.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.8.7",
     "fabric": "*",
     "fabric-language-kotlin": "*",
-    "minecraft": "1.16.x",
+    "minecraft": "1.16.5",
     "cotton-client-commands": "^1.0.0"
   },
   "suggests": {
