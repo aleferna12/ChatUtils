@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "chatutils",
+  "version": "${version}",
+
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "sources": "https://github.com/aleferna12/chatutils"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/chatutils/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.aleferna.chatutils.MainKt::init"
+    ],
+    "cotton-client-commands": ["com.aleferna.chatutils.CommandRegistrator"]
+  },
+  "mixins": [
+    "chatutils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.16.x",
+    "cotton-client-commands": "^1.0.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

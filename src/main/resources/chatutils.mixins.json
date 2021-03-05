@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.aleferna.chatutils.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "Main"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
