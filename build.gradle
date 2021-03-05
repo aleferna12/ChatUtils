@@ -23,7 +23,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.fathzer:javaluator:3.0.3'
+    include "com.fathzer:javaluator:3.0.3"
+    implementation "com.fathzer:javaluator:3.0.3"
     //to change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
