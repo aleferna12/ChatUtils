@@ -1,5 +1,6 @@
 package com.aleferna.chatutils
 
+import com.aleferna.chatutils.commands.CalculatorCommand
 import com.mojang.brigadier.CommandDispatcher
 import com.mojang.brigadier.arguments.DoubleArgumentType
 import com.mojang.brigadier.arguments.DoubleArgumentType.getDouble

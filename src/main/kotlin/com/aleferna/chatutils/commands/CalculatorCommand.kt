@@ -1,4 +1,4 @@
-package com.aleferna.chatutils
+package com.aleferna.chatutils.commands
 
 import com.fathzer.soft.javaluator.DoubleEvaluator
 import com.fathzer.soft.javaluator.StaticVariableSet
