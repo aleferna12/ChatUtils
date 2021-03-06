@@ -3,16 +3,16 @@
   "id": "chatutils",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ClientUtils",
+  "description": "Simple client-side mod that adds useful features as commands, such as a calculator.",
   "authors": [
-    "Me!"
+    "aleferna"
   ],
   "contact": {
     "sources": "https://github.com/aleferna12/chatutils"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/chatutils/icon.png",
 
   "environment": "*",
